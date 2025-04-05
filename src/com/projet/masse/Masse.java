@@ -1,14 +1,14 @@
-package com.tonnom.masse;
+package com.projet.masse;
 
 public class Masse {
 
-    // Kilogrammes to Livres
-    public static double kgToLb(double kg) {
-        return kg * 2.20462; // 1 kg = 2.20462 livres
+    // Conversion de Kilogrammes vers Livres
+    public static double kilogrammesToLivres(double kilogrammes) {
+        return kilogrammes * 2.20462;
     }
 
-    // Livres to Kilogrammes
-    public static double lbToKg(double lb) {
-        return lb / 2.20462; // 1 livre = 0.453592 kg
+    // Conversion de Livres vers Kilogrammes
+    public static double livresToKilogrammes(double livres) {
+        return livres / 2.20462;
     }
 }

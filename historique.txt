@@ -1,0 +1,1 @@
+Température convertie: 30.0°C -> 86.0°F
